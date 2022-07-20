@@ -1,3 +1,5 @@
+
+
 let etaPasseggero = parseInt(prompt('Inserisci la tua età'));
         let kilometri = parseInt(prompt('Inserisci i km del viaggio'));
         const costoBiglietto = kilometri * 0.21;
