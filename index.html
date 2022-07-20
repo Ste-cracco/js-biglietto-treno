@@ -14,7 +14,7 @@
         const costoBiglietto = kilometri * 0.21;
         const prezzoFinale = costoBiglietto;     
 
-        if (isNan(etaPasseggero) && isNan(kilometri)) {
+        if (isNaN(etaPasseggero) || isNaN(kilometri)) {
             console.log ('Inserisci numeri validi')
         } else     
 
@@ -29,8 +29,8 @@
                 console.log ('Il costo del biglietto è di € ' + prezzoOver65.toFixed(2))
             }
             else {
-                console.log(prezzoFinale)
-            }        
+                console.log('Il prezzo del biglietto è di €' + prezzoFinale)
+            }       
 
     </script>
 </body>
